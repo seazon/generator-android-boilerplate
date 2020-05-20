@@ -1,0 +1,86 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "meta.gradle"
+buildscript {
+    ext {
+        libs = [
+                // kotlin libs
+                kotlin             : '1.3.72',
+                coroutines         : '1.3.5',
+                // Jetpack libs
+                activity           : '1.1.0',
+                appcompat          : '1.1.0',
+                biometric          : '1.0.1',
+                core               : '1.3.0-rc01',
+                constraint         : '2.0.0-beta4',
+                coordinatorlayout  : '1.1.0',
+                fragment           : '1.2.4',
+                legacy             : '1.0.0',
+                lifecycle          : '2.2.0',
+                nav                : '2.2.2',
+                recyclerview       : '1.1.0',
+                security           : '1.0.0-rc01',
+                viewPager2         : '1.0.0',
+                webkit             : '1.2.0',
+                worker             : '2.3.4',
+                // Testing libs
+                espresso           : '3.2.0',
+                rules              : '1.2.0',
+                junit              : '4.12',
+                runner             : '1.1.1',
+                // Google libs
+                googleService      : '4.3.0',
+                playServicesVersion: '17.4.0',
+                material           : '1.1.0-rc02',
+                dagger             : '2.27',
+                // 3rd party libs
+                apollo             : '1.3.3',
+                pickerView         : '1.1.1',
+                realm              : '6.0.2',
+                glide              : '4.11.0',
+                okhttp             : '4.5.0',
+                retrofit           : '2.8.1'
+        ]
+    }
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://plugins.gradle.org/m2/' }
+        maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+        maven { url 'https://dl.bintray.com/apollographql/android/' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath "io.realm:realm-gradle-plugin:${libs.realm}"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${libs.kotlin}"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:${libs.nav}"
+        classpath "com.apollographql.apollo:apollo-gradle-plugin:${libs.apollo}"
+        classpath "com.google.gms:google-services:${libs.googleService}"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${libs.kotlin}"
+        classpath "org.jlleitschuh.gradle:ktlint-gradle:9.1.0"
+        classpath "gradle.plugin.com.betomorrow.gradle:appcenter-plugin:1.1.16"
+    }
+}
+
+allprojects {
+    apply plugin: "org.jlleitschuh.gradle.ktlint-idea"
+
+    // Optionally configure plugin
+    ktlint {
+        debug = true
+    }
+
+    repositories {
+        google()
+        jcenter()
+        flatDir { dirs 'libs', project(':app').file('libs') }
+        maven { url 'https://plugins.gradle.org/m2/' }
+        maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+        maven { url 'https://dl.bintray.com/apollographql/android/' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+apply plugin: "org.jlleitschuh.gradle.ktlint"

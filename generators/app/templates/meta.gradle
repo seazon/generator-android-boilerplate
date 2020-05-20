@@ -1,0 +1,18 @@
+ext {
+    VERSION_CODE = 273
+
+    if (project.hasProperty('versionCode')) {
+        VERSION_CODE = versionCode.toInteger()
+    }
+
+    VERSION_NAME = "0.9.20"
+
+    if (project.hasProperty('versionName')) {
+        VERSION_NAME = versionName.toString()
+    }
+
+    MIN_SDK_VERSION = 23
+    TARGET_SDK_VERSION = 29
+    COMPILE_SDK_VERSION = 29
+    BUILD_TOOLS_VERSION = "29.0.3"
+}

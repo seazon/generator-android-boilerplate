@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="primaryColor">#009cde</color>
+    <color name="primaryLightColor">#61cdff</color>
+    <color name="primaryDarkColor">#006eac</color>
+
+    <color name="secondaryColor">#104c97</color>
+    <color name="secondaryLightColor">#5277c8</color>
+    <color name="secondaryDarkColor">#002568</color>
+
+    <color name="primaryTextColor">@color/hh_black</color>
+    <color name="secondaryTextColor">#666666</color>
+
+    <color name="hh_white">#ffffff</color>
+    <color name="hh_black">#1d1d1d</color>
+    <color name="hh_grey">#666666</color>
+    <color name="hh_lightGrey">#aaaaaa</color>
+    <color name="hh_lightSmoke">#f4f4f4</color>
+    <color name="hh_error">#ce3262</color>
+    <color name="hh_notification">#ef7622</color>
+    <color name="hh_purple">#752E5C</color>
+    <color name="hh_errorBg">#f0e0e5</color>
+    <color name="hh_notificationBg">#f7ebdf</color>
+</resources>
