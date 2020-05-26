@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.api
+package <%= appPackage %>.api
 
 import retrofit2.Response
 import retrofit2.http.Body

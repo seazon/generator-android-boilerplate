@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.base
+package <%= appPackage %>.base
 
 import androidx.annotation.MainThread
 import androidx.lifecycle.LifecycleOwner

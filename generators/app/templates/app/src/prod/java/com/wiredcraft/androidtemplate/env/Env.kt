@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.env
+package <%= appPackage %>.env
 
 object Env {
     val NAME = "prod"

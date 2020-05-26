@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.ui.custom
+package <%= appPackage %>.ui.custom
 
 import android.content.Context
 import android.graphics.Typeface
@@ -8,7 +8,7 @@ import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.OnLifecycleEvent
 import com.afollestad.materialdialogs.MaterialDialog
-import com.wiredcraft.androidtemplate.R
+import <%= appPackage %>.R
 
 class CoreMaterialDialog(builder: Builder) : MaterialDialog(builder), LifecycleObserver {
     class Builder(context: Context) : MaterialDialog.Builder(context) {

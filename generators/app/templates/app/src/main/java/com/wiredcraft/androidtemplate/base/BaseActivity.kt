@@ -1,8 +1,8 @@
-package com.wiredcraft.androidtemplate.base
+package <%= appPackage %>.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.wiredcraft.androidtemplate.plugin.LoggingPlugin
+import <%= appPackage %>.plugin.LoggingPlugin
 import dagger.android.AndroidInjection
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector

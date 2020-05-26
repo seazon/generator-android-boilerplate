@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.util
+package <%= appPackage %>.util
 
 object PasswordUtil {
     val LENGTH_RANGE = 8..32

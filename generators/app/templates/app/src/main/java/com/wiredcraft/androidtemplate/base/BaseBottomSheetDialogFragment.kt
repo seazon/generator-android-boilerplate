@@ -1,14 +1,14 @@
-package com.wiredcraft.androidtemplate.base
+package <%= appPackage %>.base
 
 import android.content.Context
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-import com.wiredcraft.androidtemplate.ui.view.main.CoreMainActivity
+import <%= appPackage %>.ui.view.main.CoreMainActivity
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.wiredcraft.androidtemplate.plugin.LoggingPlugin
-import com.wiredcraft.androidtemplate.ui.custom.CoreMaterialDialog
+import <%= appPackage %>.plugin.LoggingPlugin
+import <%= appPackage %>.ui.custom.CoreMaterialDialog
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector

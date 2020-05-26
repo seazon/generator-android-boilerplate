@@ -1,6 +1,6 @@
-package com.wiredcraft.androidtemplate.ui.view.home
+package <%= appPackage %>.ui.view.home
 
-import com.wiredcraft.androidtemplate.base.BaseScreenViewModel
+import <%= appPackage %>.base.BaseScreenViewModel
 import javax.inject.Inject
 
 class HomeScreenViewModel @Inject constructor(

@@ -1,7 +1,7 @@
-package com.wiredcraft.androidtemplate.plugin
+package <%= appPackage %>.plugin
 
 import android.util.Log
-import com.wiredcraft.androidtemplate.BuildConfig
+import <%= appPackage %>.BuildConfig
 
 interface LoggingPlugin {
     fun v(msg: Any?) {

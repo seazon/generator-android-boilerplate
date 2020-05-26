@@ -1,9 +1,9 @@
-package com.wiredcraft.androidtemplate.util
+package <%= appPackage %>.util
 
 import android.content.Context
 import android.webkit.WebView
 import androidx.webkit.WebViewCompat
-import com.wiredcraft.androidtemplate.env.WebViewEnv
+import <%= appPackage %>.env.WebViewEnv
 
 object WebViewUtil {
     /*

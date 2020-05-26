@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.base
+package <%= appPackage %>.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,7 +10,7 @@ import androidx.activity.OnBackPressedCallback
 import androidx.navigation.fragment.findNavController
 import androidx.webkit.WebResourceErrorCompat
 import androidx.webkit.WebViewClientCompat
-import com.wiredcraft.androidtemplate.databinding.FragmentWebViewBinding
+import <%= appPackage %>.databinding.FragmentWebViewBinding
 
 abstract class BaseWebViewScreenFragment : BaseScreenFragment() {
     protected lateinit var mBinding: FragmentWebViewBinding

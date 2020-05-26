@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.util
+package <%= appPackage %>.util
 
 import io.michaelrocks.libphonenumber.android.PhoneNumberUtil
 import java.util.regex.Pattern

@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.ktx
+package <%= appPackage %>.ktx
 
 import android.app.Activity
 import android.content.ClipData
@@ -14,7 +14,7 @@ import android.util.TypedValue
 import android.view.*
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
-import com.wiredcraft.androidtemplate.R
+import <%= appPackage %>.R
 
 fun Context.toast(message: String, duration: Int = Toast.LENGTH_SHORT) {
     Toast.makeText(this, message, duration).show()

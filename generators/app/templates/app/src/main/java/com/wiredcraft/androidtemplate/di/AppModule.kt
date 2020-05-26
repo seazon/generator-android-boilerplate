@@ -1,12 +1,12 @@
-package com.wiredcraft.androidtemplate.di
+package <%= appPackage %>.di
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.wiredcraft.androidtemplate.MainActivity
-import com.wiredcraft.androidtemplate.App
-import com.wiredcraft.androidtemplate.factory.CoreViewModelFactory
-import com.wiredcraft.androidtemplate.ui.view.main.MainViewModel
+import <%= appPackage %>.MainActivity
+import <%= appPackage %>.App
+import <%= appPackage %>.factory.CoreViewModelFactory
+import <%= appPackage %>.ui.view.main.MainViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.android.ContributesAndroidInjector

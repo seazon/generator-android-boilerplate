@@ -1,8 +1,8 @@
-package com.wiredcraft.androidtemplate.di
+package <%= appPackage %>.di
 
 import androidx.lifecycle.ViewModel
-import com.wiredcraft.androidtemplate.ui.view.login.LoginScreenViewModel
-import com.wiredcraft.androidtemplate.ui.view.login.LoginScreenFragment
+import <%= appPackage %>.ui.view.login.LoginScreenViewModel
+import <%= appPackage %>.ui.view.login.LoginScreenFragment
 import dagger.Binds
 import dagger.Module
 import dagger.android.ContributesAndroidInjector

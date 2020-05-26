@@ -11,7 +11,7 @@ android {
     compileSdkVersion COMPILE_SDK_VERSION
 
     defaultConfig {
-        applicationId "com.wiredcraft.androidtemplate"
+        applicationId "<%= appPackage %>"
         minSdkVersion MIN_SDK_VERSION
         targetSdkVersion TARGET_SDK_VERSION
         versionCode VERSION_CODE

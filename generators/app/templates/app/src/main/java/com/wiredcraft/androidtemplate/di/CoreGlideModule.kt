@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.di
+package <%= appPackage %>.di
 
 import android.annotation.SuppressLint
 import android.content.Context

@@ -1,10 +1,10 @@
-package com.wiredcraft.androidtemplate.ui.view.login
+package <%= appPackage %>.ui.view.login
 
 import androidx.annotation.VisibleForTesting
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.wiredcraft.androidtemplate.api.ApiManager
-import com.wiredcraft.androidtemplate.base.BaseScreenViewModel
+import <%= appPackage %>.api.ApiManager
+import <%= appPackage %>.base.BaseScreenViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.HttpException

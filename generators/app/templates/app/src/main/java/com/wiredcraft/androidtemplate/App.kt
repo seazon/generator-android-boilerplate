@@ -1,9 +1,9 @@
-package com.wiredcraft.androidtemplate
+package <%= appPackage %>
 
 import androidx.appcompat.app.AppCompatDelegate
 import com.jakewharton.threetenabp.AndroidThreeTen
-import com.wiredcraft.androidtemplate.di.DaggerAppComponent
-import com.wiredcraft.androidtemplate.plugin.LoggingPlugin
+import <%= appPackage %>.di.DaggerAppComponent
+import <%= appPackage %>.plugin.LoggingPlugin
 import dagger.android.AndroidInjector
 import dagger.android.DaggerApplication
 

@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.factory
+package <%= appPackage %>.factory
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

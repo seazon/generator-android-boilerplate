@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.ui.view.main
+package <%= appPackage %>.ui.view.main
 
 import android.app.Application
 import android.os.Bundle
@@ -6,8 +6,8 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.navigation.NavController
 import androidx.navigation.NavDestination
-import com.wiredcraft.androidtemplate.api.ApiManager
-import com.wiredcraft.androidtemplate.plugin.LoggingPlugin
+import <%= appPackage %>.api.ApiManager
+import <%= appPackage %>.plugin.LoggingPlugin
 import javax.inject.Inject
 import kotlin.collections.set
 

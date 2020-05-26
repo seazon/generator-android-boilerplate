@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.base
+package <%= appPackage %>.base
 
 import android.graphics.drawable.Drawable
 import android.os.Bundle
@@ -7,12 +7,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
-import com.wiredcraft.androidtemplate.ui.view.main.CoreMainActivity
+import <%= appPackage %>.ui.view.main.CoreMainActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.RequestBuilder
-import com.wiredcraft.androidtemplate.ktx.NoArgsCallback
-import com.wiredcraft.androidtemplate.plugin.LoggingPlugin
-import com.wiredcraft.androidtemplate.ui.custom.CoreMaterialDialog
+import <%= appPackage %>.ktx.NoArgsCallback
+import <%= appPackage %>.plugin.LoggingPlugin
+import <%= appPackage %>.ui.custom.CoreMaterialDialog
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector

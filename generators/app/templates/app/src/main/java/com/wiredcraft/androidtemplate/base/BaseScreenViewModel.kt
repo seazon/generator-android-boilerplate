@@ -1,8 +1,8 @@
-package com.wiredcraft.androidtemplate.base
+package <%= appPackage %>.base
 
 import androidx.lifecycle.*
-import com.wiredcraft.androidtemplate.plugin.LoggingPlugin
-import com.wiredcraft.androidtemplate.ui.custom.LiveError
+import <%= appPackage %>.plugin.LoggingPlugin
+import <%= appPackage %>.ui.custom.LiveError
 import kotlinx.coroutines.cancelChildren
 
 abstract class BaseScreenViewModel : ViewModel(), LoggingPlugin, LifecycleObserver {

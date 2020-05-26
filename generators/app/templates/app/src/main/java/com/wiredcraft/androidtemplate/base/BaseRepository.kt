@@ -1,8 +1,8 @@
-package com.wiredcraft.androidtemplate.base
+package <%= appPackage %>.base
 
-import com.wiredcraft.androidtemplate.api.ApiManager
-import com.wiredcraft.androidtemplate.ktx.RepoScope
-import com.wiredcraft.androidtemplate.plugin.LoggingPlugin
+import <%= appPackage %>.api.ApiManager
+import <%= appPackage %>.ktx.RepoScope
+import <%= appPackage %>.plugin.LoggingPlugin
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.cancel
 import javax.inject.Inject

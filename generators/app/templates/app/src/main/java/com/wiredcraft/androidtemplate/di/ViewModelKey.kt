@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.di
+package <%= appPackage %>.di
 
 import dagger.MapKey
 import androidx.lifecycle.ViewModel

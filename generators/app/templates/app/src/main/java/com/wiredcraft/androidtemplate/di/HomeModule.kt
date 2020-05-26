@@ -1,8 +1,8 @@
-package com.wiredcraft.androidtemplate.di
+package <%= appPackage %>.di
 
 import androidx.lifecycle.ViewModel
-import com.wiredcraft.androidtemplate.ui.view.home.HomeScreenFragment
-import com.wiredcraft.androidtemplate.ui.view.home.HomeScreenViewModel
+import <%= appPackage %>.ui.view.home.HomeScreenFragment
+import <%= appPackage %>.ui.view.home.HomeScreenViewModel
 import dagger.Binds
 import dagger.Module
 import dagger.android.ContributesAndroidInjector

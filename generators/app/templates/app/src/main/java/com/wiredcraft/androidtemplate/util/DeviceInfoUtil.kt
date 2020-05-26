@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.util
+package <%= appPackage %>.util
 
 import android.os.Build
 

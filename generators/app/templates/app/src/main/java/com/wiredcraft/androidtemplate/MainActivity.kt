@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate
+package <%= appPackage %>
 
 import android.app.Dialog
 import android.content.Intent
@@ -17,12 +17,12 @@ import androidx.navigation.NavDestination
 import androidx.navigation.NavOptions
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.NavHostFragment
-import com.wiredcraft.androidtemplate.ui.view.main.CoreMainActivity
-import com.wiredcraft.androidtemplate.databinding.ActivityMainBinding
-import com.wiredcraft.androidtemplate.ktx.hideKeyboard
-import com.wiredcraft.androidtemplate.ktx.orZero
-import com.wiredcraft.androidtemplate.plugin.LoggingPlugin
-import com.wiredcraft.androidtemplate.ui.view.main.MainViewModel
+import <%= appPackage %>.ui.view.main.CoreMainActivity
+import <%= appPackage %>.databinding.ActivityMainBinding
+import <%= appPackage %>.ktx.hideKeyboard
+import <%= appPackage %>.ktx.orZero
+import <%= appPackage %>.plugin.LoggingPlugin
+import <%= appPackage %>.ui.view.main.MainViewModel
 import kotlinx.coroutines.*
 import net.yslibrary.android.keyboardvisibilityevent.KeyboardVisibilityEvent
 

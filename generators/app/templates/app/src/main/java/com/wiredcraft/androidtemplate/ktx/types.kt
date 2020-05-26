@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.ktx
+package <%= appPackage %>.ktx
 
 import android.os.Bundle
 

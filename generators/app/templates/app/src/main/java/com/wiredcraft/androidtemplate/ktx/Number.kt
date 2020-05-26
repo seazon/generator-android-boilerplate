@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.ktx
+package <%= appPackage %>.ktx
 
 fun Double?.orZero(): Double = this ?: .0
 

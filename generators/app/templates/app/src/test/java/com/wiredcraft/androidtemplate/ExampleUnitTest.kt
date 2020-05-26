@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate
+package <%= appPackage %>
 
 import org.junit.Test
 

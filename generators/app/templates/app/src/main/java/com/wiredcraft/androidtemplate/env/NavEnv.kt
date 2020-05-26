@@ -1,7 +1,7 @@
-package com.wiredcraft.androidtemplate.env
+package <%= appPackage %>.env
 
 import androidx.navigation.NavOptions
-import com.wiredcraft.androidtemplate.R
+import <%= appPackage %>.R
 
 object NavEnv {
     enum class LinkDest {

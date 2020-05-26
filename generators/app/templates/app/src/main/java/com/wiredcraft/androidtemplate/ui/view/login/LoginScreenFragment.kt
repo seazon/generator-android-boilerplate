@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.ui.view.login
+package <%= appPackage %>.ui.view.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,9 +10,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
-import com.wiredcraft.androidtemplate.base.BaseScreenFragment
-import com.wiredcraft.androidtemplate.R
-import com.wiredcraft.androidtemplate.databinding.FragmentLoginScreenBinding
+import <%= appPackage %>.base.BaseScreenFragment
+import <%= appPackage %>.R
+import <%= appPackage %>.databinding.FragmentLoginScreenBinding
 
 class LoginScreenFragment : BaseScreenFragment(),
     LoginScreenViewModel.LoginScreenNavigator {

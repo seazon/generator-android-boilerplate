@@ -9,7 +9,7 @@
 
         <variable
             name="vm"
-            type="com.wiredcraft.androidtemplate.ui.view.login.LoginScreenViewModel" />
+            type="<%= appPackage %>.ui.view.login.LoginScreenViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

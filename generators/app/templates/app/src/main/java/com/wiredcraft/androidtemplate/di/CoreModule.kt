@@ -1,14 +1,14 @@
-package com.wiredcraft.androidtemplate.di
+package <%= appPackage %>.di
 
 import android.app.Application
 import android.content.Context
-import com.wiredcraft.androidtemplate.BuildConfig
-import com.wiredcraft.androidtemplate.api.ApiManager
-import com.wiredcraft.androidtemplate.api.ApiManagerImpl
-import com.wiredcraft.androidtemplate.api.RestfulApiService
-import com.wiredcraft.androidtemplate.env.ApiEnv
-import com.wiredcraft.androidtemplate.util.DeviceInfoUtil
-import com.wiredcraft.androidtemplate.util.Validator
+import <%= appPackage %>.BuildConfig
+import <%= appPackage %>.api.ApiManager
+import <%= appPackage %>.api.ApiManagerImpl
+import <%= appPackage %>.api.RestfulApiService
+import <%= appPackage %>.env.ApiEnv
+import <%= appPackage %>.util.DeviceInfoUtil
+import <%= appPackage %>.util.Validator
 import dagger.Module
 import dagger.Provides
 import io.michaelrocks.libphonenumber.android.PhoneNumberUtil

@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.base
+package <%= appPackage %>.base
 
 import android.os.Bundle
 import android.view.View

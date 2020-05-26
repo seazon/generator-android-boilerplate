@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.ui.view.home
+package <%= appPackage %>.ui.view.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,12 +6,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.viewModels
-import com.wiredcraft.androidtemplate.base.BaseScreenFragment
-import com.wiredcraft.androidtemplate.R
-import com.wiredcraft.androidtemplate.databinding.FragmentHomeScreenBinding
-import com.wiredcraft.androidtemplate.env.NavEnv
-import com.wiredcraft.androidtemplate.plugin.LoggingPlugin
-import com.wiredcraft.androidtemplate.ui.view.home.HomeScreenViewModel
+import <%= appPackage %>.base.BaseScreenFragment
+import <%= appPackage %>.R
+import <%= appPackage %>.databinding.FragmentHomeScreenBinding
+import <%= appPackage %>.env.NavEnv
+import <%= appPackage %>.plugin.LoggingPlugin
+import <%= appPackage %>.ui.view.home.HomeScreenViewModel
 
 class HomeScreenFragment : BaseScreenFragment(),
     HomeScreenViewModel.Navigator,

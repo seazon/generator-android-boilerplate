@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.ui.view.main
+package <%= appPackage %>.ui.view.main
 
 import android.Manifest
 import android.app.Dialog
@@ -16,8 +16,8 @@ import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProvider.Factory
 import androidx.navigation.NavOptions
-import com.wiredcraft.androidtemplate.base.BaseActivity
-import com.wiredcraft.androidtemplate.ui.custom.CoreMaterialDialog
+import <%= appPackage %>.base.BaseActivity
+import <%= appPackage %>.ui.custom.CoreMaterialDialog
 import net.yslibrary.android.keyboardvisibilityevent.KeyboardVisibilityEventListener
 import net.yslibrary.android.keyboardvisibilityevent.Unregistrar
 import javax.inject.Inject

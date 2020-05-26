@@ -1,3 +1,3 @@
-package com.wiredcraft.androidtemplate.ui.custom
+package <%= appPackage %>.ui.custom
 
 interface LiveError

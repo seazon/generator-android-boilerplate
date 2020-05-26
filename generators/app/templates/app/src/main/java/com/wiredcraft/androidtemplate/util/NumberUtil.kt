@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.util
+package <%= appPackage %>.util
 
 object NumberUtil {
     fun formatComma(num: Long): String {

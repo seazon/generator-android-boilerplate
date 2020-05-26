@@ -1,6 +1,6 @@
-package com.wiredcraft.androidtemplate.di
+package <%= appPackage %>.di
 
-import com.wiredcraft.androidtemplate.App
+import <%= appPackage %>.App
 import dagger.Component
 import dagger.android.AndroidInjectionModule
 import dagger.android.AndroidInjector

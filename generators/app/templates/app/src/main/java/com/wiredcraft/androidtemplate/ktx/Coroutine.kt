@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.ktx
+package <%= appPackage %>.ktx
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

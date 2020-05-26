@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.env
+package <%= appPackage %>.env
 
 object ApiEnv {
     const val BASE_URL = "https://wiredcraft.com/"

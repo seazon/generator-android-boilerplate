@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.base
+package <%= appPackage %>.base
 
 import dagger.android.DaggerBroadcastReceiver
 

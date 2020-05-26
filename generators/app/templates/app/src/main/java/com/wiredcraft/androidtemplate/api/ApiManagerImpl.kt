@@ -1,4 +1,4 @@
-package com.wiredcraft.androidtemplate.api
+package <%= appPackage %>.api
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
